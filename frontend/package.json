@@ -1,0 +1,54 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "redy web",
+  "productName": "redy Demo App",
+  "author": "kkomac <sangeun12@naver.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build",
+    "dev": "quasar dev",
+    "clean": "quasar clean"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.15.8",
+    "apexcharts": "^3.35.5",
+    "axios": "^1.2.1",
+    "pinia": "^2.0.20",
+    "pinia-plugin-persistedstate": "^2.1.1",
+    "quasar": "^2.11.1",
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.4",
+    "vue3-apexcharts": "^1.4.1",
+    "vue3-autocounter": "^1.0.6"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "@quasar/app-webpack": "^3.6.2",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.4.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "prettier": "^2.7.1"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

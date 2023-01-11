@@ -1,0 +1,16 @@
+# Default ignored files
+/workspace.xml
+/usage.statistics.xml
+/tasks.xml
+/gradle.xml
+/sonarlint/
+/sonarlint-state.xml
+/libraries/
+/modules.xml
+/artifacts
+/shelf
+/httpRequests/
+/misc.xml
+/dataSources/
+/dataSources.local.xml
+/php.xml

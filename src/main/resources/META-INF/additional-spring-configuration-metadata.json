@@ -1,0 +1,158 @@
+{
+    "properties": [
+        {
+            "name": "app.conf.name",
+            "type": "java.lang.String",
+            "description": "App specific settings."
+        },
+        {
+            "name": "spring.jpa.hibernate.id.new_generator_mappings",
+            "type": "java.lang.String",
+            "description": "hibernate setting."
+        },
+        {
+            "name": "javax.persistence.lock.timeout",
+            "type": "java.time.Duration",
+            "description": "lock timeout."
+        },
+        {
+            "name": "javax.persistence.query.timeout",
+            "type": "java.time.Duration",
+            "description": "query timeout."
+        },
+        {
+            "name": "logging.file.nameonly",
+            "type": "java.lang.String",
+            "description": "로그파일의 path 를 제외한 이름 만(user defined)."
+        },
+        {
+            "name": "info.tags.environment",
+            "type": "java.lang.String",
+            "description": "스프링부트 어드민 에 나타날 메타 정보."
+        },
+        {
+            "name": "batch.schedule.pattern",
+            "type": "java.lang.String",
+            "description": "Job cron 패턴."
+        },
+        {
+            "name": "spring.batch.job-repository.in-memory",
+            "type": "java.lang.Boolean",
+            "description": "In memory job repository 사용여부. 개발에서만 사용할것."
+        },
+        {
+            "name": "spring.batch.datasource.url",
+            "type": "java.lang.String",
+            "description": "Batch 용 Data source 설정."
+        },
+        {
+            "name": "spring.batch.datasource.username",
+            "type": "java.lang.String",
+            "description": "Batch 용 Data source 설정."
+        },
+        {
+            "name": "spring.batch.datasource.password",
+            "type": "java.lang.String",
+            "description": "Batch 용 Data source 설정."
+        },
+        {
+            "name": "spring.batch.datasource.driver-class-name",
+            "type": "java.lang.String",
+            "description": "Batch 용 Data source 설정."
+        },
+        {
+            "name": "grpc.server.port",
+            "type": "java.lang.Integer",
+            "description": "gRPC 서버 포트."
+        },
+        {
+            "name": "security.oauth2.resource.filter-order",
+            "type": "java.lang.Integer",
+            "description": "filter order."
+        },
+        {
+            "name": "shell.history.file",
+            "type": "java.lang.String",
+            "description": "쉘 히스토리 저장 파일."
+        },
+        {
+            "name": "file.upload.root",
+            "type": "java.lang.String",
+            "description": "업로드 파일 저장 디렉토리."
+        },
+        {
+            "name": "spring.application.version",
+            "type": "java.lang.String",
+            "description": "버전정보."
+        },
+        {
+            "name": "spring.application.authors",
+            "type": "java.lang.String",
+            "description": "개발자 정보."
+        },
+        {
+            "name": "netty.tcp-port",
+            "type": "java.lang.Integer",
+            "description": "네티 서버 리슨 포트."
+        },
+        {
+            "name": "netty.secure",
+            "type": "java.lang.Boolean",
+            "description": "SSL 지원 여부."
+        },
+        {
+            "name": "netty.keep-alive",
+            "type": "java.lang.Boolean",
+            "description": "TCP keep alive 여부."
+        },
+        {
+            "name": "netty.boss-count",
+            "type": "java.lang.Integer",
+            "description": "네티 boss 카운트."
+        },
+        {
+            "name": "netty.worker-count",
+            "type": "java.lang.Integer",
+            "description": "네티 worker 카운트."
+        },
+        {
+            "name": "netty.idle-timeout",
+            "type": "java.time.Duration",
+            "description": "idle 타임 아웃.(최소단위 초)."
+        },
+        {
+            "name": "netty.backlog",
+            "type": "java.lang.Integer",
+            "description": "네티 backlog 카운트."
+        },
+        {
+            "name": "netty.tcp-nodelay",
+            "type": "java.lang.Boolean",
+            "description": "네티 TCP no delay 여부."
+        },
+        {
+            "name": "logging.project.config.resource",
+            "type": "java.lang.String",
+            "description": "logback included resource."
+        },
+        {
+            "name": "logging.project.config.file",
+            "type": "java.lang.String",
+            "description": "logback included file."
+        },
+        {
+            "name": "web.static.resource.location",
+            "type": "java.util.List",
+            "description": "external static web resources."
+        },
+        {
+            "name": "web.static.resource.uri",
+            "type": "java.util.List",
+            "description": "external static web resources service uri prefix."
+        },
+        {
+            "name": "app.scheduling.enabled",
+            "type": "java.lang.Boolean",
+            "description": "@EnableScheduling 을 사용할것인가."
+        }
+    ]}

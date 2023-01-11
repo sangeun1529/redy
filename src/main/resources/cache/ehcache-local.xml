@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- java config 는 너무 길고 복잡하다. 이게 속 편하다. -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.ehcache.org/v3"
+        xmlns:jsr107="http://www.ehcache.org/v3/jsr107"
+        xsi:schemaLocation="
+            http://www.ehcache.org/v3 http://www.ehcache.org/schema/ehcache-core-3.0.xsd
+            http://www.ehcache.org/v3/jsr107 http://www.ehcache.org/schema/ehcache-107-ext-3.0.xsd">
+    <service>
+        <jsr107:defaults enable-management="true" enable-statistics="false"/>
+    </service>
+
+    <cache alias="userCache" uses-template="general-cache"/>
+    <cache alias="commonCodeCache" uses-template="general-cache"/>
+    <cache alias="dbPropertyCache" uses-template="general-cache"/>
+
+    <cache-template name="general-cache">
+        <resources>
+            <heap>500</heap>
+        </resources>
+    </cache-template>
+</config>
